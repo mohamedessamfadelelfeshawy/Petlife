@@ -1,0 +1,133 @@
+[
+    {
+        "name":"product One",
+        "price":1000,
+        "image":"assets/images/1.png"
+    },
+    {
+       
+        "name":"product Two",
+        "price":2000,
+        "image":"assets/images/2.png"
+    },
+    {
+        "name":"product Three",
+        "price":3000,
+        "image":"assets/images/angle(2).jpg"
+    },
+    {
+        "name'":"product Four",
+        "price":4000,
+        "image":"assets/images/bacblok.jpeg"
+    },
+    {
+        "name":"product Five",
+        "price":5000,
+        "image":"assets/images/back2.jpeg"
+    },
+    {
+        "name":"product Six",
+        "price":6000,
+        "image":"assets/images/cats.jpg"
+    },
+    {
+        "name":"product One",
+        "price":1000,
+        "image":"assets/images/discus().jpg"
+    },
+    {
+        "name":"product One",
+        "price":1000,
+        "image":"assets/images/dog.jpg"
+    },
+    {
+        "name":"product One",
+        "price":1000,
+        "image":"assets/images/dogs.jpg"
+    },
+    {
+        "name":"product One",
+        "price":1000,
+        "image":"assets/images/dwa.jpg"
+    },
+    {
+        "name":"product One",
+        "price":1000,
+        "image":"assets/images/eat.jpg"
+    },
+    {
+        "name":"product One",
+        "price":1000,
+        "image":"assets/images/golden(2).jpg"
+    },
+    {
+        "name": "product Oserfne",
+        "price":1000,
+        "image":"assets/images/goldenfish.jpg"
+    },
+    {
+        "name":"product One",
+        "price":1000,
+        "image":"assets/images/Molly.jpg"
+    },
+    {
+        "name":"product One",
+        "price":1000,
+        "image":"assets/images/Guppy(3).jpg"
+    },
+    {
+        "name":"product One",
+        "price":1000,
+        "image":"assets/images/textphoto.jpg"
+    },
+
+    {
+        "name":"product One",
+        "price":1000,
+        "image":"assets/images/Guppy(3).jpg"
+    },
+      {
+        "name":"product One",
+        "price":1000,
+        "image":"assets/images/Guppy(3).jpg"
+    },
+
+      {
+        "name":"product One",
+        "price":1000,
+        "image":"assets/images/2.png"
+    },
+
+      {
+        "name":"product One",
+        "price":1000,
+        "image":"assets/images/2.png"
+    },
+
+      {
+        "name":"product One",
+        "price":1000,
+        "image":"assets/images/cats.jpg"
+    },
+
+      {
+        "name":"product One",
+        "price":1000,
+        "image":"assets/images/cats.jpg"
+    },
+
+      {
+        "name":"product One",
+        "price":1000,
+        "image":"assets/images/dogs.jpg"
+    },
+
+      {
+        "name":"product One",
+        "price":1000,
+        "image":"assets/images/2.png"
+    }
+
+
+
+]

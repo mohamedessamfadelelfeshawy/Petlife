@@ -1,0 +1,1219 @@
+body {
+  padding: 0%;
+  margin: 0%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  background-image: linear-gradient(to right, #17b832, #17a2b8 87%);
+  width: 100%;
+  height: 184px;
+  /*   display: flex; */
+}
+
+.icon {
+  position: absolute;
+  top: 35px;
+  margin-left: 25px;
+}
+.main1 {
+  height: 15%;
+  display: flex;
+  padding-top: 3%px;
+}
+.main1 img {
+  width: 164px;
+  height: 135px;
+  margin: 13px 0px 0px 38px;
+}
+.main1 p {
+  font-size: 100px;
+  margin-top: 18px;
+  font-weight: bolder;
+  color: white;
+  margin-left: 10px;
+}
+.main2 {
+  position: absolute;
+  top: 20px;
+  left: 48%;
+}
+.main2 ul {
+  list-style: none;
+  display: flex;
+}
+.main2 ul li {
+  font-size: 65px;
+
+  font-weight: bolder;
+  margin: 8px 15px 12px 70px;
+}
+.main2 ul li a:hover {
+  color: blue;
+  border-bottom: 2px solid #7dc89b;
+  transition: 0.5s;
+}
+.main2 ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+/* *********** */
+/* middle */
+
+.middle {
+  width: 100%;
+  height: 950px;
+  background-color: #eeeeee;
+}
+
+.middle .profile_photo {
+  width: 100%;
+  height: 526px;
+  background-image: url("../doctor.imgs/sean-oulashin-KMn4VEeEPR8-unsplash.jpg");
+  background-size: 100% 526px;
+  padding-top: 1px;
+}
+
+.middle .part2 {
+  width: 100%;
+  height: 222px;
+  position: absolute;
+  top: 490px;
+
+  background-image: linear-gradient(#70707024, #000000a6);
+}
+
+.middle .profile_photo .data {
+  width: 40%;
+  height: 450px;
+  margin: -450px 0% 0px 32%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 35%;
+}
+
+.middle .profile_photo .photo {
+  width: 450px;
+  height: 450px;
+  margin-top: 61px;
+  margin-left: 30px;
+}
+
+.middle .profile_photo .photo img {
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+}
+#profile-image-upload {
+  display: none;
+}
+
+.middle .profile_photo .photo1 {
+  width: 450px;
+  height: 450px;
+  background: #70707061 0% 0% no-repeat padding-box;
+  background-size: 450px 450px;
+  border-radius: 50%;
+  margin-top: -450px;
+  margin-left: 30px;
+  display: none;
+}
+.middle .profile_photo .photo1 i {
+  font-size: 120px;
+  margin-left: 160px;
+  margin-top: 130px;
+}
+.middle .profile_photo .photo1 p {
+  text-align: center;
+  font: normal normal bold 50px/58px Arial Rounded MT;
+  margin-top: -10px;
+}
+
+.middle .profile_photo h1,
+.middle .profile_photo p {
+  font: normal normal bold 70px/81px Arial Rounded MT;
+}
+
+.middle .profile_photo .data h1 {
+  font-size: 60px;
+  padding-top: 80px;
+}
+
+.middle .profile_photo .data p {
+  font-size: 40px;
+  position: relative;
+  top: -100px;
+  color: #707070;
+}
+
+.middle .profile_photo .icon {
+  background-color: #ffffff;
+  width: 85px;
+  height: 85px;
+  border-radius: 10px;
+  border: 3px solid #707070;
+  text-align: center;
+  margin: 237px 0px 0px 1690px;
+}
+
+.middle .profile_photo .icon i {
+  width: 30px;
+  height: 40px;
+  font-size: 50px;
+  padding-top: 20px;
+  padding-right: 18px;
+}
+
+.middle form {
+  width: 100%;
+  height: 350px;
+}
+
+.middle form div input {
+  width: 500px;
+  height: 70px;
+  border: 1px solid #707070;
+  border-radius: 8px;
+  background: #70707038;
+  font: normal normal bold 45px/52px Arial Rounded MT;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+.middle form div {
+  width: 510px;
+  height: 100;
+  display: inline-block;
+}
+
+.middle form div label {
+  font: normal normal bold 70px/81px Arial Rounded MT;
+  font-size: 40px;
+}
+
+.middle form .d1 {
+  margin-left: 4%;
+  position: absolute;
+  top: 730px;
+  display: none;
+}
+
+.middle form .d2 {
+  margin-left: 3%;
+  margin-top: 7%;
+}
+
+.middle form .d3 {
+  margin-left: 62%;
+  margin-top: -20%;
+  position: relative;
+  bottom: 50px;
+}
+
+/* footer**/
+.mainfooter {
+  background-color: #110f0f;
+  width: 100%;
+  height: 35%;
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.footer1,
+.footer2,
+.footer3 {
+  margin-top: 3%;
+}
+
+.footer1 h2,
+.footer2 h2,
+.footer3 h2 {
+  color: white;
+  font-size: 40px;
+}
+
+.footer1 div,
+.footer2 div,
+.footer3 div {
+  width: 60px;
+  height: 5px;
+  background-color: #28a745;
+  margin-top: -35px;
+}
+
+.footer2 div {
+  margin-left: 10px;
+}
+
+.footer1 p {
+  color: #707070;
+  width: 390px;
+  height: 169px;
+  font-size: 30px;
+}
+
+.footer2 ul {
+  list-style: none;
+  margin-left: -25px;
+}
+
+.footer2 ul li a {
+  color: #707070;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.footer3 p {
+  color: #707070;
+  font-size: 30px;
+  width: 320px;
+}
+
+.footer4 {
+  display: flex;
+  justify-content: center;
+}
+
+.footer4 h2 {
+  color: #707070;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* responsive*/
+
+@media (max-width: 767px) {
+  
+.header {
+  background-image: linear-gradient(to right, #17b832, #17a2b8 87%);
+  width: 100%;
+  height: 154px;
+  /*   display: flex; */
+}
+
+.icon {
+  position: absolute;
+  top: 35px;
+  margin-left: 25px;
+}
+.main1 {
+  height: 15%;
+  display: flex;
+  padding-top: 4%px;
+}
+.main1 img {
+  width: 90px;
+  height: 90px;
+  margin: 15px 0px 0px 10px;
+}
+.main1 p {
+  font-size: 40px;
+  margin-top: 45px;
+  font-weight: bolder;
+  color: white;
+  margin-left: 10px;
+}
+.main2 {
+  position: absolute;
+  top: 20px;
+  left: 48%;
+}
+.main2 ul {
+  list-style: none;
+  display: flex;
+}
+.main2 ul li {
+  font-size: 20px;
+  font-weight: bolder;
+  margin: 8px 2px 12px 2px;
+}
+.main2 ul li a:hover {
+  color: blue;
+  border-bottom: 2px solid #7dc89b;
+  transition: 0.5s;
+}
+.main2 ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+  /*****/
+  .middle {
+    width: 100%;
+    height: 950px;
+    background-color: #eeeeee;
+  }
+
+  .middle .profile_photo {
+    width: 100%;
+    height: 526px;
+    background-image: url("../doctor.imgs/sean-oulashin-KMn4VEeEPR8-unsplash.jpg");
+    background-size: 100% 526px;
+    padding-top: 1px;
+  }
+
+  .middle .part2 {
+    width: 98.9%;
+    height: 190px;
+    position: absolute;
+    top: 530px;
+    background-image: linear-gradient(#70707024, #000000a6);
+  }
+
+  .middle .profile_photo .data {
+    width: 40%;
+    height: 450px;
+    margin: -330px 0% 0px 32%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40%;
+  }
+
+  .middle .profile_photo .photo {
+    width: 250px;
+    height: 250px;
+    background: url("../images/ben-den-engelsen-YUu9UAcOKZ4-unsplash.jpg");
+    background-size: 250px 250px;
+    border-radius: 50%;
+    margin-top: 150px;
+    margin-left: 30px;
+  }
+
+  .middle .profile_photo .photo img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .middle .profile_photo .photo1 {
+    width: 250px;
+    height: 250px;
+    background: #70707061 0% 0% no-repeat padding-box;
+    background-size: 250px 250px;
+    border-radius: 50%;
+    margin-top: -250px;
+    margin-left: 30px;
+    display: none;
+  }
+  .middle .profile_photo .photo1 i {
+    font-size: 60px;
+    margin-left: 100px;
+    margin-top: 80px;
+  }
+  .middle .profile_photo .photo1 p {
+    text-align: center;
+    font: normal normal bold 30px/58px Arial Rounded MT;
+    margin-top: -10px;
+  }
+
+  .middle .profile_photo h1,
+  .middle .profile_photo p {
+    font: normal normal bold 70px/81px Arial Rounded MT;
+  }
+
+  .middle .profile_photo .data h1 {
+    font-size: 25px;
+    padding-top: 80px;
+  }
+
+  .middle .profile_photo .data p {
+    font-size: 25spx;
+    position: relative;
+    top: -100px;
+    color: #707070;
+  }
+
+  .middle .profile_photo .icon {
+    background-color: #ffffff;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    border: 3px solid #707070;
+    text-align: center;
+    margin: 227px 0px 0px 500px;
+  }
+
+  .middle .profile_photo .icon i {
+    width: 30px;
+    height: 40px;
+    font-size: 40px;
+    padding-top: 12px;
+    padding-right: 12px;
+  }
+
+  .middle form {
+    width: 100%;
+    height: 350px;
+  }
+
+  .middle form div input {
+    width: 250px;
+    height: 60px;
+    border: 1px solid #707070;
+    border-radius: 8px;
+    background: #70707038;
+    font: normal normal bold 45px/52px Arial Rounded MT;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .middle form div {
+    width: 310px;
+    height: 100;
+    display: inline-block;
+  }
+
+  .middle form div label {
+    font: normal normal bold 70px/81px Arial Rounded MT;
+    font-size: 25px;
+  }
+
+  .middle form .d1 {
+    margin-left: 2%;
+    position: absolute;
+    top: 750px;
+    display: none;
+  }
+
+  .middle form .d2 {
+    margin-left: 2%;
+    margin-top: 22%;
+  }
+
+  .middle form .d3 {
+    margin-left: 49%;
+    margin-top: -11%;
+    position: relative;
+    bottom: -5px;
+  }
+
+  /*******foooter*/
+
+  .footer {
+    display: grid;
+    grid-template-columns: 1fri;
+  }
+  .footer1 h2,
+  .footer2 h2,
+  .footer3 h2 {
+    color: white;
+    font-size: 25px;
+  }
+  .footer1 div,
+  .footer2 div,
+  .footer3 div {
+    width: 60px;
+    height: 5px;
+    background-color: #28a745;
+    margin-top: -15px;
+  }
+  .footer1 p {
+    color: #707070;
+    width: 390px;
+    height: 169px;
+    font-size: 25px;
+  }
+
+  .footer2 ul li a {
+    color: #707070;
+    font-size: 25px;
+    text-decoration: none;
+  }
+  .footer3 p {
+    color: #707070;
+    font-size: 25px;
+  }
+  .footer4 {
+    display: flex;
+    justify-content: center;
+  }
+  .footer4 h2 {
+    color: #707070;
+    font-size: 30px;
+    font-weight: bold;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+.header {
+  background-image: linear-gradient(to right, #17b832, #17a2b8 87%);
+  width: 100%;
+  height: 154px;
+  /*   display: flex; */
+}
+
+.icon {
+  position: absolute;
+  top: 35px;
+  margin-left: 25px;
+}
+.main1 {
+  height: 15%;
+  display: flex;
+  padding-top: 4%px;
+}
+.main1 img {
+  width: 124px;
+  height: 100px;
+  margin: 13px 0px 0px 38px;
+}
+.main1 p {
+  font-size: 40px;
+  margin-top: 45px;
+  font-weight: bolder;
+  color: white;
+  margin-left: 10px;
+}
+.main2 {
+  position: absolute;
+  top: 20px;
+  left: 48%;
+}
+.main2 ul {
+  list-style: none;
+  display: flex;
+}
+.main2 ul li {
+  font-size: 30px;
+  font-weight: bolder;
+  margin: 8px 6px 12px 7px;
+}
+.main2 ul li a:hover {
+  color: blue;
+  border-bottom: 2px solid #7dc89b;
+  transition: 0.5s;
+}
+.main2 ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+  /******/
+  .middle {
+    width: 100%;
+    height: 1050px;
+    background-color: #eeeeee;
+  }
+
+  .middle .profile_photo {
+    width: 100%;
+    height: 526px;
+    background-image: url("../doctor.imgs/sean-oulashin-KMn4VEeEPR8-unsplash.jpg");
+    background-size: 100% 526px;
+    padding-top: 1px;
+  }
+
+  .middle .part2 {
+    width: 100%;
+    height: 190px;
+    position: absolute;
+    top: 520px;
+    background-image: linear-gradient(#70707024, #000000a6);
+  }
+
+  .middle .profile_photo .data {
+    width: 40%;
+    height: 450px;
+    margin: -330px 0% 0px 32%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40%;
+  }
+
+  .middle .profile_photo .photo {
+    width: 250px;
+    height: 250px;
+    background: url("../images/ben-den-engelsen-YUu9UAcOKZ4-unsplash.jpg");
+    background-size: 250px 250px;
+    border-radius: 50%;
+    margin-top: 150px;
+    margin-left: 30px;
+  }
+
+  .middle .profile_photo .photo img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .middle .profile_photo .photo1 {
+    width: 250px;
+    height: 250px;
+    background: #70707061 0% 0% no-repeat padding-box;
+    background-size: 250px 250px;
+    border-radius: 50%;
+    margin-top: -250px;
+    margin-left: 30px;
+    display: none;
+  }
+  .middle .profile_photo .photo1 i {
+    font-size: 60px;
+    margin-left: 100px;
+    margin-top: 80px;
+  }
+  .middle .profile_photo .photo1 p {
+    text-align: center;
+    font: normal normal bold 30px/58px Arial Rounded MT;
+    margin-top: -10px;
+  }
+
+  .middle .profile_photo h1,
+  .middle .profile_photo p {
+    font: normal normal bold 70px/81px Arial Rounded MT;
+  }
+
+  .middle .profile_photo .data h1 {
+    font-size: 30px;
+    padding-top: 80px;
+  }
+
+  .middle .profile_photo .data p {
+    font-size: 30px;
+    position: relative;
+    top: -100px;
+    color: #707070;
+  }
+
+  .middle .profile_photo .icon {
+    background-color: #ffffff;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    border: 3px solid #707070;
+    text-align: center;
+    margin: 227px 0px 0px 650px;
+  }
+
+  .middle .profile_photo .icon i {
+    width: 30px;
+    height: 40px;
+    font-size: 40px;
+    padding-top: 12px;
+    padding-right: 12px;
+  }
+
+  .middle form {
+    width: 100%;
+    height: 350px;
+  }
+
+  .middle form div input {
+    width: 350px;
+    height: 60px;
+    border: 1px solid #707070;
+    border-radius: 8px;
+    background: #70707038;
+    font: normal normal bold 45px/52px Arial Rounded MT;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .middle form div {
+    width: 310px;
+    height: 100;
+    display: inline-block;
+  }
+
+  .middle form div label {
+    font: normal normal bold 70px/81px Arial Rounded MT;
+    font-size: 25px;
+  }
+
+  .middle form .d1 {
+    margin-left: 2%;
+    position: absolute;
+    top: 750px;
+    display: none;
+  }
+
+  .middle form .d2 {
+    margin-left: 2%;
+    margin-top: 20%;
+  }
+
+  .middle form .d3 {
+    margin-left: 49%;
+    margin-top: -11%;
+    position: relative;
+    bottom: -15px;
+  }
+
+  .mainfooter {
+    background-color: #110f0fe6;
+    width: 100%;
+    height: 35%;
+    margin-top: -11%;
+  }
+  .footer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .footer1,
+  .footer2,
+  .footer3 {
+    margin-top: 3%;
+  }
+  .footer1 h2,
+  .footer2 h2,
+  .footer3 h2 {
+    color: white;
+    font-size: 20px;
+  }
+  .footer1 div,
+  .footer2 div,
+  .footer3 div {
+    width: 60px;
+    height: 5px;
+    background-color: #28a745;
+    margin-top: -5px;
+  }
+  .footer2 div {
+    margin-left: 10px;
+  }
+  .footer1 p {
+    color: #707070;
+    width: 200px;
+    height: 169px;
+    font-size: 20px;
+  }
+  .footer2 ul {
+    list-style: none;
+    margin-left: -25px;
+  }
+  .footer2 ul li a {
+    color: #707070;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  .footer3 p {
+    color: #707070;
+    font-size: 17px;
+    width: 320px;
+  }
+  .footer4 {
+    display: flex;
+    justify-content: center;
+  }
+  .footer4 h2 {
+    color: #707070;
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
+
+/* media medium sereen rules*/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+.header {
+  background-image: linear-gradient(to right, #17b832, #17a2b8 87%);
+  width: 100%;
+  height: 164px;
+  /*   display: flex; */
+}
+
+.icon {
+  position: absolute;
+  top: 35px;
+  margin-left: 25px;
+}
+.main1 {
+  height: 15%;
+  display: flex;
+  padding-top: 4%px;
+}
+.main1 img {
+  width: 134px;
+  height: 120px;
+  margin: 13px 0px 0px 38px;
+}
+.main1 p {
+  font-size: 50px;
+  margin-top: 40px;
+  font-weight: bolder;
+  color: white;
+  margin-left: 10px;
+}
+.main2 {
+  position: absolute;
+  top: 20px;
+  left: 48%;
+}
+.main2 ul {
+  list-style: none;
+  display: flex;
+}
+.main2 ul li {
+  font-size: 30px;
+  font-weight: bolder;
+  margin: 8px 10px 12px 20px;
+}
+.main2 ul li a:hover {
+  color: blue;
+  border-bottom: 2px solid #7dc89b;
+  transition: 0.5s;
+}
+.main2 ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+
+  /*  res midddeeellllllleeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee */
+
+  .middle {
+    width: 100%;
+    height: 1050px;
+    background-color: #eeeeee;
+  }
+
+  .middle .profile_photo {
+    width: 100%;
+    height: 526px;
+    background-image: url("../doctor.imgs/sean-oulashin-KMn4VEeEPR8-unsplash.jpg");
+    background-size: 100% 526px;
+    padding-top: 1px;
+  }
+
+  .middle .part2 {
+    width: 100%;
+    height: 260px;
+    position: absolute;
+    top: 450px;
+    background-image: linear-gradient(#70707024, #000000a6);
+  }
+
+  .middle .profile_photo .data {
+    width: 40%;
+    height: 450px;
+    margin: -450px 0% 0px 32%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 35%;
+  }
+
+  .middle .profile_photo .photo {
+    width: 380px;
+    height: 380px;
+    background: url("../images/ben-den-engelsen-YUu9UAcOKZ4-unsplash.jpg");
+    background-size: 450px 450px;
+    border-radius: 50%;
+    margin-top: 61px;
+    margin-left: 30px;
+  }
+  .middle .profile_photo .photo1 {
+    width: 375px;
+    height: 385px;
+    background: #70707061 0% 0% no-repeat padding-box;
+    background-size: 450px 450px;
+    border-radius: 50%;
+    margin-top: -380px;
+    margin-left: 30px;
+    display: none;
+  }
+  .middle .profile_photo .photo1 i {
+    font-size: 120px;
+    margin-left: 160px;
+    margin-top: 130px;
+  }
+  .middle .profile_photo .photo1 p {
+    text-align: center;
+    font: normal normal bold 50px/58px Arial Rounded MT;
+    margin-top: -10px;
+  }
+
+  .middle .profile_photo h1,
+  .middle .profile_photo p {
+    font: normal normal bold 70px/81px Arial Rounded MT;
+  }
+
+  .middle .profile_photo .data h1 {
+    font-size: 30px;
+    padding-top: 80px;
+  }
+  .middle .profile_photo .data {
+    margin-left: 45%;
+  }
+
+  .middle .profile_photo .data p {
+    font-size: 30px;
+    position: relative;
+    top: -100px;
+    color: #707070;
+  }
+
+  .middle .profile_photo .icon {
+    background-color: #ffffff;
+    width: 85px;
+    height: 85px;
+    border-radius: 10px;
+    border: 3px solid #707070;
+    text-align: center;
+    margin: 237px 0px 0px 87%;
+  }
+
+  .middle .profile_photo .icon i {
+    width: 30px;
+    height: 40px;
+    font-size: 50px;
+    padding-top: 20px;
+    padding-right: 18px;
+  }
+
+  .middle form {
+    width: 100%;
+    height: 350px;
+  }
+
+  .middle form div input {
+    width: 400px;
+    height: 70px;
+    border: 1px solid #707070;
+    border-radius: 8px;
+    background: #70707038;
+    font: normal normal bold 45px/52px Arial Rounded MT;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .middle form div {
+    width: 400px;
+    height: 100;
+    display: inline-block;
+  }
+
+  .middle form div label {
+    font: normal normal bold 70px/81px Arial Rounded MT;
+    font-size: 30px;
+  }
+
+  .middle form .d1 {
+    margin-left: 4%;
+    position: absolute;
+    top: 700px;
+    display: none;
+  }
+
+  .middle form .d2 {
+    margin-left: 4%;
+    margin-top: 8%;
+  }
+
+  .middle form .d3 {
+    margin-left: 53%;
+    margin-top: -20%;
+    position: relative;
+    bottom: 50px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1629px) {
+
+.header {
+  background-image: linear-gradient(to right, #17b832, #17a2b8 87%);
+  width: 100%;
+  height: 164px;
+  /*   display: flex; */
+}
+
+.icon {
+  position: absolute;
+  top: 35px;
+  margin-left: 25px;
+}
+.main1 {
+  height: 15%;
+  display: flex;
+  padding-top: 4%px;
+}
+.main1 img {
+  width: 144px;
+  height: 125px;
+  margin: 13px 0px 0px 38px;
+}
+.main1 p {
+  font-size: 70px;
+  margin-top: 18px;
+  font-weight: bolder;
+  color: white;
+  margin-left: 10px;
+}
+.main2 {
+  position: absolute;
+  top: 20px;
+  left: 48%;
+}
+.main2 ul {
+  list-style: none;
+  display: flex;
+}
+.main2 ul li {
+  font-size: 40px;
+  font-weight: bolder;
+  margin: 8px 15px 12px 30px;
+}
+.main2 ul li a:hover {
+  color: blue;
+  border-bottom: 2px solid #7dc89b;
+  transition: 0.5s;
+}
+.main2 ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+  /*  res midddeeellllllleeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee */
+
+  .middle {
+    width: 100%;
+    height: 970px;
+    background-color: #eeeeee;
+  }
+
+  .middle .profile_photo {
+    width: 100%;
+    height: 526px;
+    background-image: url("../doctor.imgs/sean-oulashin-KMn4VEeEPR8-unsplash.jpg");
+    background-size: 100% 526px;
+    padding-top: 1px;
+  }
+
+  .middle .part2 {
+    width: 100%;
+    height: 260px;
+    position: absolute;
+    top: 450px;
+    background-image: linear-gradient(#70707024, #000000a6);
+  }
+
+  .middle .profile_photo .data {
+    width: 40%;
+    height: 450px;
+    margin: -450px 0% 0px 32%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 35%;
+  }
+
+  .middle .profile_photo .photo {
+    width: 380px;
+    height: 380px;
+    background: url("../images/ben-den-engelsen-YUu9UAcOKZ4-unsplash.jpg");
+    background-size: 450px 450px;
+    border-radius: 50%;
+    margin-top: 61px;
+    margin-left: 30px;
+  }
+  .middle .profile_photo .photo1 {
+    width: 375px;
+    height: 385px;
+    background: #70707061 0% 0% no-repeat padding-box;
+    background-size: 450px 450px;
+    border-radius: 50%;
+    margin-top: -380px;
+    margin-left: 30px;
+    display: none;
+  }
+  .middle .profile_photo .photo1 i {
+    font-size: 120px;
+    margin-left: 160px;
+    margin-top: 130px;
+  }
+  .middle .profile_photo .photo1 p {
+    text-align: center;
+    font: normal normal bold 50px/58px Arial Rounded MT;
+    margin-top: -10px;
+  }
+
+  .middle .profile_photo h1,
+  .middle .profile_photo p {
+    font: normal normal bold 70px/81px Arial Rounded MT;
+  }
+
+  .middle .profile_photo .data h1 {
+    font-size: 30px;
+    padding-top: 80px;
+  }
+
+  .middle .profile_photo .data p {
+    font-size: 30px;
+    position: relative;
+    top: -100px;
+    color: #707070;
+  }
+
+  .middle .profile_photo .icon {
+    background-color: #ffffff;
+    width: 85px;
+    height: 85px;
+    border-radius: 10px;
+    border: 3px solid #707070;
+    text-align: center;
+    margin: 237px 0px 0px 87%;
+  }
+
+  .middle .profile_photo .icon i {
+    width: 30px;
+    height: 40px;
+    font-size: 50px;
+    padding-top: 20px;
+    padding-right: 18px;
+  }
+
+  .middle form {
+    width: 100%;
+    height: 350px;
+  }
+
+  .middle form div input {
+    width: 500px;
+    height: 70px;
+    border: 1px solid #707070;
+    border-radius: 8px;
+    background: #70707038;
+    font: normal normal bold 45px/52px Arial Rounded MT;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .middle form div {
+    width: 510px;
+    height: 100;
+    display: inline-block;
+  }
+
+  .middle form div label {
+    font: normal normal bold 70px/81px Arial Rounded MT;
+    font-size: 40px;
+  }
+
+  .middle form .d1 {
+    margin-left: 4%;
+    position: absolute;
+    top: 700px;
+    display: none;
+  }
+
+  .middle form .d2 {
+    margin-left: 4%;
+    margin-top: 7%;
+  }
+
+  .middle form .d3 {
+    margin-left: 50%;
+    margin-top: -20%;
+    position: relative;
+    bottom: 50px;
+  }
+}

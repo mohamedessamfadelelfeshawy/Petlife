@@ -1,0 +1,1952 @@
+body {
+  padding: 0%;
+  margin: 0%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+
+}
+
+a {
+  text-decoration: none;
+}
+
+.header{
+  background-image:linear-gradient(270deg, #28A745 0%, #17A2B8 100%);
+  width: 100%; height: 96px; display: flex;
+}
+#search{
+  margin-top:15px; 
+  margin-left: 500px;
+} 
+
+#search input{
+ border: 1px solid #707070;
+ border-radius: 33px;
+ width: 830px;
+ height: 66px;
+ font-size: 24px; text-align: center;
+}
+.icon{
+ position: absolute;
+ top: 35px; margin-left: 25px;
+}
+.main1{
+  height: 15%;
+  display: flex;
+  margin-top: 13px;
+}
+.main1 img{
+  width: 71px; height: 58px; margin: 13px 0px 0px 38px;
+}
+.main1 p{
+ font-size: 42px; margin-top: 18px; font-weight: bolder; color:#28A745; margin-left: 5px; 
+                                              
+}
+.main1 span{
+  color: #17A2B8;
+}
+.main{
+  display: flex; justify-content: space-between;
+}
+.main2 ul{
+  list-style: none;
+  display: flex;  margin-right: 50px; margin-top: 19px;
+}
+.main2 ul li{
+  margin: 16px 15px 12px 70px ;
+  font-size: 35px;  font-weight: bolder;
+}
+.main2 ul li a:hover{
+  color: #7dc89b;
+  border-bottom: 2px solid #7dc89b; transition: 0.5s;
+}
+.main2 ul li a{ 
+  text-decoration: none; color: black; opacity: 0.7; padding: 10px;
+}
+
+
+/* *********** */
+/* middle */
+
+.middle {
+  width: 100%;
+  height: 1850px;
+  background-color: #EEEEEE;
+}
+
+.middle .profile_photo {
+  width: 100%;
+  height: 526px;
+  background-image: url("../images/sean-oulashin-KMn4VEeEPR8-unsplash.jpg");
+  background-size: 100% 526px;
+  padding-top: 1px;
+}
+
+.middle .part2 {
+  width: 98.9%;
+  height: 222px;
+  position: absolute;
+  top: 530px;
+  background-image: linear-gradient(#70707024, #000000A6);
+}
+
+.middle .profile_photo .data {
+  width: 40%;
+  height: 450px;
+  margin: -450px 0% 0px 32%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 35%;
+
+}
+
+.middle .profile_photo .photo {
+  width: 450px;
+  height: 450px;
+  margin-top: 61px;
+  margin-left: 30px;
+}
+
+
+.middle .profile_photo .photo img{
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+}
+ #profile-image-upload{
+  display:none;
+}
+
+
+
+.middle .profile_photo .photo1 {
+  width: 450px;
+  height: 450px;
+  background: #70707061 0% 0% no-repeat padding-box;
+  background-size: 450px 450px;
+  border-radius: 50%;
+  margin-top: -450px;
+  margin-left: 30px;
+  display: none;
+
+}
+.middle .profile_photo .photo1 i {
+  font-size: 120px;
+  margin-left: 160px;
+  margin-top: 130px;
+}
+.middle .profile_photo .photo1 p {
+  text-align: center;
+  font: normal normal bold 50px/58px Arial Rounded MT;
+  margin-top:-10px ;
+}
+
+.middle .profile_photo h1,
+.middle .profile_photo p {
+  font: normal normal bold 70px/81px Arial Rounded MT;
+}
+
+.middle .profile_photo .data h1 {
+
+  font-size: 60px;
+  padding-top: 80px;
+
+}
+
+.middle .profile_photo .data p {
+  font-size: 40px;
+  position: relative;
+  top: -100px;
+  color: #707070;
+}
+
+.middle .profile_photo .icon {
+  background-color: #FFFFFF;
+  width: 85px;
+  height: 85px;
+  border-radius: 10px;
+  border: 3px solid #707070;
+  text-align: center;
+  margin: 237px 0px 0px 1690px;
+}
+
+.middle .profile_photo .icon i {
+  width: 30px;
+  height: 40px;
+  font-size: 50px;
+  padding-top: 20px;
+  padding-right: 18px;
+}
+
+.middle form {
+  width: 100%;
+  height: 350px;
+
+}
+
+.middle form div input {
+  width: 500px;
+  height: 70px;
+  border: 1px solid #707070;
+  border-radius: 8px;
+  background: #70707038;
+  font: normal normal bold 45px/52px Arial Rounded MT;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+.middle form div{
+  width: 510px;
+  height: 100;
+ display: inline-block;
+  
+}
+
+.middle form div label {
+  font: normal normal bold 70px/81px Arial Rounded MT;
+  font-size: 40px;
+}
+
+
+.middle form  .d1 {
+  margin-left: 4%;
+  position: absolute;
+  top: 750px;
+  display: none;
+}
+
+.middle form  .d2 {
+margin-left: 3%;
+margin-top: 5%;
+}
+
+.middle form  .d3 {
+margin-left: 62%;
+margin-top: -20%;
+position: relative;
+bottom: 50px;
+}
+
+
+
+.my_animal {
+  width: 95%;
+  height: 880px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  margin: auto;
+  border: 1px solid #707070;
+  border-radius: 26px;
+}
+.my_animal p{
+  text-align: center;
+  font: normal normal bold 68px/78px Arial Rounded MT;
+letter-spacing: 0px;
+color: #000000;
+}
+.my_animal hr {
+  width: 175px;
+  border: 2px solid #28A745;
+}
+.my_animal .pictures div{
+  border: 1px solid #707070;
+border-radius: 26px;
+width: 40%;
+height: 550px;
+margin-top: 50px;
+}
+.my_animal .pictures{
+  display: flex;
+}
+.my_animal .pic1{
+text-align: right;
+margin-left: 40px;
+background: url("../images/marliese-streefland-2l0CWTpcChI-unsplash.jpg") no-repeat;
+background-size: 100% 550px;
+}
+.my_animal .pic2{
+  text-align: right;
+margin-left: 198px;
+background: url("../images/oscar-sutton-yihlaRCCvd4-unsplash.jpg") no-repeat;
+background-size: 100% 550px;
+}
+.my_animal .pic1 .rex , .my_animal .pic2 .mavi{
+  border: none;
+  width: 100%;
+  height: 150px;
+  position: relative;
+  border-radius: 0px 0px 26px 26px;
+  background: transparent linear-gradient(180deg, #7070704D 0%, #00000099 100%) 0% 0% no-repeat padding-box;
+  
+}
+.my_animal .pic2 .mavi{
+  bottom: -64%;
+  
+}
+.my_animal .pic1 .rex{
+  bottom: -64%;
+}
+.my_animal .pic2  .mavi hr,.my_animal .pic1 .rex hr{
+  width: 150px;
+  border: 2px solid #28A745;
+  margin-top:-60px;
+}
+.my_animal .pic2  .mavi p,.my_animal .pic1 .rex p{
+margin-top: 20px;
+}
+.my_animal .pic1 .rex div,.my_animal .pic2 .mavi div{
+  width: 80px;
+  height: 80px;
+  background: #D20000 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  border-radius: 6px;
+  margin-left: 80%;
+  margin-top: -80px;
+  text-align: center;
+  display: none;
+
+}
+.my_animal .pictures .pic1 #i1,.my_animal .pictures .pic2 #i2{
+  font-size: 60px;
+  margin: 40px 40px ;
+  display: none;
+  
+  }
+.my_animal .pic1 .rex div i,.my_animal .pic2 .mavi div i{
+  font-size: 50px;
+  color:white;
+  margin: auto;
+  margin-top: 16px;
+}
+
+.my_animal .add {
+  width: 160px;
+  height: 100px;
+  margin-left: 85%;
+  margin-top: -140px;
+  display: none;
+}
+.my_animal .add i{
+  font-size: 60px;
+  color: #707070 ;
+}
+.my_animal .add span{
+  color: #707070 ;
+  font: normal normal bold 47px/54px Arial Rounded MT;
+  padding: 0px 0px 10px 10px;
+}
+
+/* addddddddtooooooooooooooooo */
+
+body .add2{
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/add2_background.jpeg');
+  background-size: 100% 100%;
+  background-color: #28A745;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+}
+.add2 .icon {
+  background-color: #FFFFFF;
+  width: 85px;
+  height: 85px;
+  border-radius: 10px;
+  border: 3px solid #707070;
+  text-align: center;
+  margin: 237px 0px 0px 1690px;
+}
+.add2 .icon i{
+  width: 30px;
+  height: 40px;
+  font-size: 50px;
+  padding-top: 20px;
+  padding-right: 18px;
+}
+
+.add2 .icon {
+  margin-top: 30px;
+  margin-left: 90%;
+}
+
+.add2 .camera{
+  width: 38%;
+  height: 60vh;
+  border: 1px solid #707070;
+  border-radius: 15px;
+  opacity: 1;
+  margin: 12% 6% ;
+}
+.add2 .camera img{
+  width: 100%;
+  height: 60vh;
+  border-radius: 15px;
+}
+.add2 .camera input{
+  background-color: #17A2B8;
+ 
+}
+.add2 .camera i{
+  font-size: 150px;
+position: relative;
+top: -75%;
+left: 37%;
+}
+.add2 .camera p{
+  text-align: center;
+font: normal normal bold 58px/67px Arial Rounded MT;
+letter-spacing: 0px;
+position: relative;
+top: -75%;
+left: -5%;
+
+
+}
+.add2 .data{
+  width: 40%;
+  height:585px ;
+ position: absolute;
+ top: 21.4%;
+ right: 10%;
+}
+.add2 .data input{
+  width: 500px;
+  height: 80px;
+  text-align: center;
+  font: normal normal bold 58px/67px Arial Rounded MT;
+  border: 1px solid #707070;
+  margin-top: 11%;
+  margin-left: 30px;
+}
+.add2 .data ::placeholder{
+  text-align: center;
+  font: normal normal bold 58px/67px Arial Rounded MT;
+  letter-spacing: 0px; 
+}
+.add2 .data p{
+font: normal normal bold 58px/67px Arial Rounded MT;
+letter-spacing: 0px;
+color: #FFFFFF;
+margin-top: 60px;
+margin-left: 50px;
+}
+
+/* footer**/
+.mainfooter {
+  background-color: #110F0F;
+  width: 100%;
+  height: 35%;
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.footer1,
+.footer2,
+.footer3 {
+  margin-top: 3%;
+}
+
+.footer1 h2,
+.footer2 h2,
+.footer3 h2 {
+  color: white;
+  font-size: 40px;
+}
+
+.footer1 div,
+.footer2 div,
+.footer3 div {
+  width: 60px;
+  height: 5px;
+  background-color: #28A745;
+  margin-top: -35px;
+}
+
+.footer2 div {
+  margin-left: 10px;
+}
+
+.footer1 p {
+  color: #707070;
+  width: 390px;
+  height: 169px;
+  font-size: 30px;
+}
+
+.footer2 ul {
+  list-style: none;
+  margin-left: -25px;
+}
+
+.footer2 ul li a {
+  color: #707070;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.footer3 p {
+  color: #707070;
+  font-size: 30px;
+  width: 320px;
+}
+
+.footer4 {
+  display: flex;
+  justify-content: center;
+}
+
+.footer4 h2 {
+  color: #707070;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+/* responsive*/
+
+
+@media (max-width:767px){
+
+
+   .header{
+      background-image:linear-gradient(270deg, #28A745 0%, #17A2B8 100%);
+      width: 100%; height: 96px; display: flex;
+  }
+  #search{
+      margin-top:30px; 
+      margin-left: 240px;
+    } 
+  
+   #search input{
+     border: 1px solid #707070;
+     border-radius: 33px;
+     width: 300px;
+     height: 50px;
+   }
+   .icon{
+     position: absolute;
+     top: 39px; margin-left: 25px;
+   }
+   /**/
+
+   .main2 .toggle{
+      font-size: 45px;  margin-top: 22px; margin-right: 25px;
+     color: #17A2B8;
+      display: block;
+  }
+  .main2 ul{
+      list-style: none;
+      display: none;
+  }
+  .main2 .toggle:hover+ ul{
+      display: flex;
+      flex-direction: column;  background-color:rgb(255 255 255 /60%);
+      position: absolute;
+      right:-50px; top: 180px;
+      z-index: 1; 
+  }
+  .main2 ul li a{
+      text-decoration: none; color: black; opacity: 0.7; font-size: 20px; border-bottom: 2px solid #7dc89b; margin-right: 40px;
+  }
+  .main1 img{
+      width: 61px; height: 48px; margin: 13px 0px 0px 38px;
+  }
+  .main1 p{
+     font-size: 35px; margin-top: 18px; font-weight: bolder; color:#28A745; margin-left: 5px; 
+                                                  
+  }
+  /*****/
+  .middle {
+    width: 100%;
+    height: 1850px;
+    background-color: #EEEEEE;
+  }
+  
+  .middle .profile_photo {
+    width: 100%;
+    height: 526px;
+    background-image: url("../images/sean-oulashin-KMn4VEeEPR8-unsplash.jpg");
+    background-size: 100% 526px;
+    padding-top: 1px;
+  }
+  
+  .middle .part2 {
+    width: 98.9%;
+    height: 190px;
+    position: absolute;
+    top: 530px;
+    background-image: linear-gradient(#70707024, #000000A6);
+  }
+  
+  .middle .profile_photo .data {
+    width: 40%;
+    height: 450px;
+    margin: -330px 0% 0px 32%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40%;
+    
+  
+  }
+  
+  .middle .profile_photo .photo {
+    width: 250px;
+    height: 250px;
+    background:url("../images/ben-den-engelsen-YUu9UAcOKZ4-unsplash.jpg");
+    background-size: 250px 250px;
+    border-radius: 50%;
+    margin-top: 150px;
+    margin-left: 30px;
+    
+  }
+
+    
+  .middle .profile_photo .photo  img{
+        width: 250px;
+    height: 250px;
+  }
+
+  .middle .profile_photo .photo1 {
+    width: 250px;
+    height: 250px;
+    background: #70707061 0% 0% no-repeat padding-box;
+    background-size: 250px 250px;
+    border-radius: 50%;
+    margin-top: -250px;
+    margin-left: 30px;
+    display: none;
+  
+  }
+  .middle .profile_photo .photo1 i {
+    font-size: 60px;
+    margin-left: 100px;
+    margin-top: 80px;
+  }
+  .middle .profile_photo .photo1 p {
+    text-align: center;
+    font: normal normal bold 30px/58px Arial Rounded MT;
+    margin-top:-10px ;
+  }
+  
+  .middle .profile_photo h1,
+  .middle .profile_photo p {
+    font: normal normal bold 70px/81px Arial Rounded MT;
+  }
+  
+  .middle .profile_photo .data h1 {
+  
+    font-size: 25px;
+    padding-top: 80px;
+  
+  }
+  
+  .middle .profile_photo .data p {
+    font-size: 25spx;
+    position: relative;
+    top: -100px;
+    color: #707070;
+  }
+  
+  .middle .profile_photo .icon {
+    background-color: #FFFFFF;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    border: 3px solid #707070;
+    text-align: center;
+    margin: 227px 0px 0px 600px;
+  }
+  
+  .middle .profile_photo .icon i {
+    width: 30px;
+    height: 40px;
+    font-size: 40px;
+    padding-top: 12px;
+    padding-right: 12px;
+  }
+  
+  .middle form {
+    width: 100%;
+    height: 350px;
+  
+  }
+  
+  .middle form div input {
+    width: 250px;
+    height: 60px;
+    border: 1px solid #707070;
+    border-radius: 8px;
+    background: #70707038;
+    font: normal normal bold 45px/52px Arial Rounded MT;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .middle form div{
+    width: 310px;
+    height: 100;
+   display: inline-block;
+   
+    
+  }
+  
+  .middle form div label {
+    font: normal normal bold 70px/81px Arial Rounded MT;
+    font-size: 25px;
+  }
+  
+  
+  .middle form  .d1 {
+    margin-left: 2%;
+    position: absolute;
+    top: 750px;
+    display: none;
+  }
+  
+  .middle form  .d2 {
+  margin-left: 2%;
+  margin-top: 13%;
+  }
+  
+  .middle form  .d3 {
+  margin-left: 49%;
+  margin-top: -11%;
+  position: relative;
+  bottom: -5px;
+  }
+  
+  
+  
+  .my_animal {
+    width: 95%;
+    height: 880px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    margin: auto;
+    border: 1px solid #707070;
+    border-radius: 26px;
+  }
+  .my_animal p{
+    text-align: center;
+    font: normal normal bold 38px/78px Arial Rounded MT;
+    letter-spacing: 0px;
+    color: #000000;
+  }
+  .my_animal hr {
+    width: 100px;
+    border: 2px solid #28A745;
+  }
+  .my_animal .pictures div{
+  border: 1px solid #707070;
+  border-radius: 26px;
+  width: 40%;
+  height: 550px;
+  margin-top: 50px;
+  
+  }
+  .my_animal .pictures{
+    display: flex;
+    
+    
+  }
+  .my_animal .pic1{
+  text-align: right;
+  margin-left: 40px;
+  background: url("../images/marliese-streefland-2l0CWTpcChI-unsplash.jpg") no-repeat;
+  background-size: 100% 550px;
+  }
+  .my_animal .pic2{
+    text-align: right;
+  margin-left: 198px;
+  background: url("../images/oscar-sutton-yihlaRCCvd4-unsplash.jpg") no-repeat;
+  background-size: 100% 550px;
+  }
+  .my_animal .pic1 .rex , .my_animal .pic2 .mavi{
+    border: none;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    border-radius: 0px 0px 26px 26px;
+    background: transparent linear-gradient(180deg, #7070704D 0%, #00000099 100%) 0% 0% no-repeat padding-box;
+    
+  }
+  .my_animal .pic2 .mavi{
+    bottom: -64%;
+   
+    
+  }
+  .my_animal .pic2 .mavi p,
+  .my_animal .pic1 .rex p{
+    font-size: 30px;
+  }
+  .my_animal .pic1 .rex{
+    bottom: -64%;
+  }
+  .my_animal .pic2  .mavi hr,.my_animal .pic1 .rex hr{
+    width: 120px;
+    border: 2px solid #28A745;
+    margin-top:-40px;
+  }
+  .my_animal .pic2  .mavi p,.my_animal .pic1 .rex p{
+  margin-top: 20px;
+  }
+  .my_animal .pic1 .rex div,.my_animal .pic2 .mavi div{
+    width: 40px;
+    height: 40px;
+    background: #D20000 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 6px;
+    margin-left: 80%;
+    margin-top: -45px;
+    text-align: center;
+    display: none;
+  
+  }
+  .my_animal .pictures .pic1 #i1,.my_animal .pictures .pic2 #i2{
+    font-size: 60px;
+    margin: 40px 40px ;
+    display: none;
+    
+    }
+  .my_animal .pic1 .rex div i,.my_animal .pic2 .mavi div i{
+    font-size: 25px;
+    color:white;
+    margin: auto;
+    margin-top: 8px;
+  }
+  
+  .my_animal .add {
+    width: 160px;
+    height: 100px;
+    margin-left: 75%;
+    margin-top: -140px;
+    display: none;
+  }
+  .my_animal .add i{
+    font-size: 35px;
+    color: #707070 ;
+  }
+  .my_animal .add span{
+    color: #707070 ;
+    font: normal normal bold 30px/54px Arial Rounded MT;
+    padding: 0px 0px 10px 10px;
+  }
+  /*******foooter*/
+
+  .footer {
+    display: grid;
+    grid-template-columns: 1fri;
+  }
+  .footer1 h2,
+  .footer2 h2,
+  .footer3 h2 {
+    color: white;
+    font-size: 25px;
+  }
+  .footer1 div,
+  .footer2 div,
+  .footer3 div {
+    width: 60px;
+    height: 5px;
+    background-color: #28a745;
+    margin-top: -15px;
+  }
+  .footer1 p {
+    color: #707070;
+    width: 390px;
+    height: 169px;
+    font-size: 25px;
+  }
+
+  .footer2 ul li a {
+    color: #707070;
+    font-size: 25px;
+    text-decoration: none;
+  }
+  .footer3 p {
+    color: #707070;
+    font-size: 25px;
+  }
+  .footer4 {
+    display: flex;
+    justify-content: center;
+  }
+  .footer4 h2 {
+    color: #707070;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+
+
+}
+
+
+
+
+
+
+@media (min-width:768px) and (max-width:991px){
+
+
+  .header{
+      background-image:linear-gradient(270deg, #28A745 0%, #17A2B8 100%);
+      width: 100%; height: 96px; display: flex;
+  }
+  #search{
+      margin-top:15px; 
+      margin-left: 270px;
+    } 
+  
+   #search input{
+     border: 1px solid #707070;
+     border-radius: 33px;
+     width: 400px;
+     height: 66px;
+   }
+   .icon{
+     position: absolute;
+     top: 35px; margin-left: 25px;
+   }  
+
+   /* linkat*/
+   .main1{
+      height: 15%;
+      display: flex;
+      margin-top: 13px;
+  }
+  .main1 img{
+      width: 45px; height: 42px; margin: 13px 0px 0px 10px;
+  }
+  .main1 p{
+     font-size: 25px; margin-top: 18px; font-weight: bolder; color:#28A745; margin-left: 5px; 
+                                                  
+  }
+  .main1 span{
+      color: #17A2B8;
+  }
+  .main{
+      display: flex; justify-content: space-between;
+  }
+  .main2{
+      width: 80%; 
+  }
+  .main2 ul{
+      list-style: none;
+      display: flex; margin-top: 19px; margin-left: 15px;
+  }
+  .main2 ul li{
+      margin: 15px 2px 5px -10px;
+      font-size: 20px;  font-weight: bolder; 
+  }
+  .main2 ul li a:hover{
+      color: #7dc89b;
+      border-bottom: 2px solid #7dc89b; transition: 0.5s;
+  }
+  .main2 ul li a{ 
+      text-decoration: none; color: black; opacity: 0.7; 
+  }
+
+
+
+   /******/
+  .middle {
+    width: 100%;
+    height: 1850px;
+    background-color: #EEEEEE;
+  }
+  
+  .middle .profile_photo {
+    width: 100%;
+    height: 526px;
+    background-image: url("../images/sean-oulashin-KMn4VEeEPR8-unsplash.jpg");
+    background-size: 100% 526px;
+    padding-top: 1px;
+  }
+  
+  .middle .part2 {
+    width: 98.9%;
+    height: 190px;
+    position: absolute;
+    top: 530px;
+    background-image: linear-gradient(#70707024, #000000A6);
+  }
+  
+  .middle .profile_photo .data {
+    width: 40%;
+    height: 450px;
+    margin: -330px 0% 0px 32%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40%;
+    
+  
+  }
+  
+  .middle .profile_photo .photo {
+    width: 250px;
+    height: 250px;
+    background:url("../images/ben-den-engelsen-YUu9UAcOKZ4-unsplash.jpg");
+    background-size: 250px 250px;
+    border-radius: 50%;
+    margin-top: 150px;
+    margin-left: 30px;
+  }
+
+
+
+  .middle .profile_photo .photo  img{
+        width: 250px;
+    height: 250px;
+  } 
+
+
+  .middle .profile_photo .photo1 {
+    width: 250px;
+    height: 250px;
+    background: #70707061 0% 0% no-repeat padding-box;
+    background-size: 250px 250px;
+    border-radius: 50%;
+    margin-top: -250px;
+    margin-left: 30px;
+    display: none;
+  
+  }
+  .middle .profile_photo .photo1 i {
+    font-size: 60px;
+    margin-left: 100px;
+    margin-top: 80px;
+  }
+  .middle .profile_photo .photo1 p {
+    text-align: center;
+    font: normal normal bold 30px/58px Arial Rounded MT;
+    margin-top:-10px ;
+  }
+  
+  .middle .profile_photo h1,
+  .middle .profile_photo p {
+    font: normal normal bold 70px/81px Arial Rounded MT;
+  }
+  
+  .middle .profile_photo .data h1 {
+  
+    font-size: 30px;
+    padding-top: 80px;
+  
+  }
+  
+  .middle .profile_photo .data p {
+    font-size: 30px;
+    position: relative;
+    top: -100px;
+    color: #707070;
+  }
+  
+  .middle .profile_photo .icon {
+    background-color: #FFFFFF;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    border: 3px solid #707070;
+    text-align: center;
+    margin: 227px 0px 0px 650px;
+  }
+  
+  .middle .profile_photo .icon i {
+    width: 30px;
+    height: 40px;
+    font-size: 40px;
+    padding-top: 12px;
+    padding-right: 12px;
+  }
+  
+  .middle form {
+    width: 100%;
+    height: 350px;
+  
+  }
+  
+  .middle form div input {
+    width: 350px;
+    height: 60px;
+    border: 1px solid #707070;
+    border-radius: 8px;
+    background: #70707038;
+    font: normal normal bold 45px/52px Arial Rounded MT;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .middle form div{
+    width: 310px;
+    height: 100;
+   display: inline-block;
+    
+  }
+  
+  .middle form div label {
+    font: normal normal bold 70px/81px Arial Rounded MT;
+    font-size: 25px;
+  }
+  
+  
+  .middle form  .d1 {
+    margin-left: 2%;
+    position: absolute;
+    top: 750px;
+    display: none;
+  }
+  
+  .middle form  .d2 {
+  margin-left: 2%;
+  margin-top: 13%;
+  }
+  
+  .middle form  .d3 {
+  margin-left: 49%;
+  margin-top: -11%;
+  position: relative;
+  bottom: -15px;
+  }
+  
+  
+  
+  .my_animal {
+    width: 95%;
+    height: 880px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    margin: auto;
+    border: 1px solid #707070;
+    border-radius: 26px;
+  }
+  .my_animal p{
+    text-align: center;
+    font: normal normal bold 48px/78px Arial Rounded MT;
+    letter-spacing: 0px;
+    color: #000000;
+  }
+  .my_animal hr {
+    width: 125px;
+    border: 2px solid #28A745;
+  }
+  .my_animal .pictures div{
+  border: 1px solid #707070;
+  border-radius: 26px;
+  width: 40%;
+  height: 550px;
+  margin-top: 50px;
+  
+  }
+  .my_animal .pictures{
+    display: flex;
+  }
+  .my_animal .pic1{
+  text-align: right;
+  margin-left: 40px;
+  background: url("../images/marliese-streefland-2l0CWTpcChI-unsplash.jpg") no-repeat;
+  background-size: 100% 550px;
+  }
+  .my_animal .pic2{
+    text-align: right;
+  margin-left: 198px;
+  background: url("../images/oscar-sutton-yihlaRCCvd4-unsplash.jpg") no-repeat;
+  background-size: 100% 550px;
+  }
+  .my_animal .pic1 .rex , .my_animal .pic2 .mavi{
+    border: none;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    border-radius: 0px 0px 26px 26px;
+    background: transparent linear-gradient(180deg, #7070704D 0%, #00000099 100%) 0% 0% no-repeat padding-box;
+    
+  }
+  .my_animal .pic2 .mavi{
+    bottom: -64%;
+   
+    
+  }
+  .my_animal .pic2 .mavi p,
+  .my_animal .pic1 .rex p{
+    font-size: 30px;
+  }
+  .my_animal .pic1 .rex{
+    bottom: -64%;
+  }
+  .my_animal .pic2  .mavi hr,.my_animal .pic1 .rex hr{
+    width: 120px;
+    border: 2px solid #28A745;
+    margin-top:-40px;
+  }
+  .my_animal .pic2  .mavi p,.my_animal .pic1 .rex p{
+  margin-top: 20px;
+  }
+  .my_animal .pic1 .rex div,.my_animal .pic2 .mavi div{
+    width: 40px;
+    height: 40px;
+    background: #D20000 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 6px;
+    margin-left: 80%;
+    margin-top: -45px;
+    text-align: center;
+    display: none;
+  
+  }
+  .my_animal .pictures .pic1 #i1,.my_animal .pictures .pic2 #i2{
+    font-size: 60px;
+    margin: 40px 40px ;
+    display: none;
+    
+    }
+  .my_animal .pic1 .rex div i,.my_animal .pic2 .mavi div i{
+    font-size: 25px;
+    color:white;
+    margin: auto;
+    margin-top: 8px;
+  }
+  
+  .my_animal .add {
+    width: 160px;
+    height: 100px;
+    margin-left: 80%;
+    margin-top: -140px;
+    display: none;
+  }
+  .my_animal .add i{
+    font-size: 40px;
+    color: #707070 ;
+  }
+  .my_animal .add span{
+    color: #707070 ;
+    font: normal normal bold 37px/54px Arial Rounded MT;
+    padding: 0px 0px 10px 10px;
+  }
+  .mainfooter {
+    background-color: #110f0fe6;
+    width: 100%;
+    height: 35%;
+    margin-top: -11%;
+  }
+  .footer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .footer1,
+  .footer2,
+  .footer3 {
+    margin-top: 3%;
+  }
+  .footer1 h2,
+  .footer2 h2,
+  .footer3 h2 {
+    color: white;
+    font-size: 20px;
+  }
+  .footer1 div,
+  .footer2 div,
+  .footer3 div {
+    width: 60px;
+    height: 5px;
+    background-color: #28a745;
+    margin-top: -5px;
+  }
+  .footer2 div {
+    margin-left: 10px;
+  }
+  .footer1 p {
+    color: #707070;
+    width: 200px;
+    height: 169px;
+    font-size: 20px;
+  }
+  .footer2 ul {
+    list-style: none;
+    margin-left: -25px;
+  }
+  .footer2 ul li a {
+    color: #707070;
+    font-size: 20px;     
+    text-decoration: none;
+
+  }
+  .footer3 p {
+    color: #707070;
+    font-size: 17px;
+    width: 320px;
+  }
+  .footer4 {
+    display: flex;
+    justify-content: center;
+  }
+  .footer4 h2 {
+    color: #707070;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  
+
+}
+
+
+
+
+ /* media medium sereen rules*/
+  @media (min-width:992px) and (max-width:1199px){
+
+    
+  .header{
+      background-image:linear-gradient(270deg, #28A745 0%, #17A2B8 100%);
+      width: 100%; height: 96px; display: flex;
+  }
+  #search{
+      margin-top:15px; 
+      margin-left: 350px;
+    } 
+  
+   #search input{
+     border: 1px solid #707070;
+     border-radius: 33px;
+     width: 450px;
+     height: 66px;
+   }
+   .icon{
+     position: absolute;
+     top: 35px; margin-left: 25px;
+   }
+   /*linlat*/
+   .main1{
+      height: 15%;
+      display: flex;
+      margin-top: 13px;
+  }
+  .main1 img{
+      width: 51px; height: 48px; margin: 13px 0px 0px 38px;
+  }
+  .main1 p{
+     font-size: 25px; margin-top: 18px; font-weight: bolder; color:#28A745; margin-left: 5px; 
+                                                  
+  }
+  .main1 span{
+      color: #17A2B8;
+  }
+  .main{
+      display: flex; justify-content: space-between;
+  }
+  .main2 ul{
+      list-style: none;
+      display: flex;  margin-right: 5px; margin-top: 19px;
+  }
+  .main2 ul li{
+      margin: 16px 10px 12px 5px ;
+      font-size: 20px;  font-weight: bolder;
+  }
+  .main2 ul li a:hover{
+      color: #7dc89b;
+      border-bottom: 2px solid #7dc89b; transition: 0.5s;
+  }
+  .main2 ul li a{ 
+      text-decoration: none; color: black; opacity: 0.7; 
+  }
+
+
+  
+/*  res midddeeellllllleeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee */
+
+.middle {
+  width: 100%;
+  height: 1850px;
+  background-color: #EEEEEE;
+}
+
+.middle .profile_photo {
+  width: 100%;
+  height: 526px;
+  background-image: url("../images/sean-oulashin-KMn4VEeEPR8-unsplash.jpg");
+  background-size: 100% 526px;
+  padding-top: 1px;
+}
+
+.middle .part2 {
+  width: 100%;
+  height: 260px;
+  position: absolute;
+  top: 450px;
+  background-image: linear-gradient(#70707024, #000000A6);
+}
+
+.middle .profile_photo .data {
+  width: 40%;
+  height: 450px;
+  margin: -450px 0% 0px 32%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 35%;
+
+}
+
+.middle .profile_photo .photo {
+  width: 380px;
+  height: 380px;
+  background:url("../images/ben-den-engelsen-YUu9UAcOKZ4-unsplash.jpg");
+  background-size: 450px 450px;
+  border-radius: 50%;
+  margin-top: 61px;
+  margin-left: 30px;
+  
+}
+.middle .profile_photo .photo1 {
+  width: 375px;
+  height: 385px;
+  background: #70707061 0% 0% no-repeat padding-box;
+  background-size: 450px 450px;
+  border-radius: 50%;
+  margin-top: -380px;
+  margin-left: 30px;
+  display: none;
+
+}
+.middle .profile_photo .photo1 i {
+  font-size: 120px;
+  margin-left: 160px;
+  margin-top: 130px;
+}
+.middle .profile_photo .photo1 p {
+  text-align: center;
+  font: normal normal bold 50px/58px Arial Rounded MT;
+  margin-top:-10px ;
+}
+
+.middle .profile_photo h1,
+.middle .profile_photo p {
+  font: normal normal bold 70px/81px Arial Rounded MT;
+}
+
+.middle .profile_photo .data h1 {
+
+  font-size: 30px;
+  padding-top: 80px;
+
+}
+.middle .profile_photo .data{
+  margin-left: 45%;
+}
+
+.middle .profile_photo .data p {
+  font-size: 30px;
+  position: relative;
+  top: -100px;
+  color: #707070;
+}
+
+.middle .profile_photo .icon {
+  background-color: #FFFFFF;
+  width: 85px;
+  height: 85px;
+  border-radius: 10px;
+  border: 3px solid #707070;
+  text-align: center;
+  margin: 237px 0px 0px 87%;
+}
+
+.middle .profile_photo .icon i {
+  width: 30px;
+  height: 40px;
+  font-size: 50px;
+  padding-top: 20px;
+  padding-right: 18px;
+}
+
+.middle form {
+  width: 100%;
+  height: 350px;
+
+}
+
+.middle form div input {
+  width: 400px;
+  height: 70px;
+  border: 1px solid #707070;
+  border-radius: 8px;
+  background: #70707038;
+  font: normal normal bold 45px/52px Arial Rounded MT;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.middle form div{
+  width: 400px;
+  height: 100;
+ display: inline-block;
+  
+}
+
+.middle form div label {
+  font: normal normal bold 70px/81px Arial Rounded MT;
+  font-size: 30px;
+}
+
+
+.middle form  .d1 {
+  margin-left: 4%;
+  position: absolute;
+  top: 700px;
+  display: none;
+}
+
+.middle form  .d2 {
+margin-left: 4%;
+margin-top: 7%;
+}
+
+.middle form  .d3 {
+margin-left: 53%;
+margin-top: -20%;
+position: relative;
+bottom: 50px;
+}
+.my_animal {
+  width: 95%;
+  height: 880px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  margin: auto;
+  border: 1px solid #707070;
+  border-radius: 26px;
+}
+.my_animal p{
+  text-align: center;
+  font: normal normal bold 40px/78px Arial Rounded MT;
+letter-spacing: 0px;
+color: #000000;
+}
+.my_animal hr {
+  width: 175px;
+  border: 2px solid #28A745;
+}
+.my_animal .pictures div{
+  border: 1px solid #707070;
+border-radius: 26px;
+width: 40%;
+height: 550px;
+margin-top: 50px;
+}
+.my_animal .pictures{
+  display: flex;
+}
+.my_animal .pic1{
+text-align: right;
+margin-left: 40px;
+background: url("../images/marliese-streefland-2l0CWTpcChI-unsplash.jpg") no-repeat;
+background-size: 100% 550px;
+}
+.my_animal .pic2{
+  text-align: right;
+margin-left: 100px;
+background: url("../images/oscar-sutton-yihlaRCCvd4-unsplash.jpg") no-repeat;
+background-size: 100% 550px;
+}
+.my_animal .pic1 .rex , .my_animal .pic2 .mavi{
+  border: none;
+  width: 100%;
+  height: 150px;
+  position: relative;
+  border-radius: 0px 0px 26px 26px;
+  background: transparent linear-gradient(180deg, #7070704D 0%, #00000099 100%) 0% 0% no-repeat padding-box;
+  
+}
+.my_animal .pic2 .mavi{
+  bottom: -64%;
+  
+}
+.my_animal .pic1 .rex{
+  bottom: -64%;
+}
+.my_animal .pic2  .mavi hr,.my_animal .pic1 .rex hr{
+  width: 150px;
+  border: 2px solid #28A745;
+  margin-top:-60px;
+}
+.my_animal .pic2  .mavi p,.my_animal .pic1 .rex p{
+margin-top: 20px;
+}
+.my_animal .pic1 .rex div,.my_animal .pic2 .mavi div{
+  width: 70px;
+  height: 70px;
+  background: #D20000 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  border-radius: 6px;
+  margin-left: 80%;
+  margin-top: -80px;
+  text-align: center;
+  display: none;
+
+}
+.my_animal .pictures .pic1 #i1,.my_animal .pictures .pic2 #i2{
+  font-size: 60px;
+  margin: 40px 40px ;
+  display: none;
+  
+  }
+.my_animal .pic1 .rex div i,.my_animal .pic2 .mavi div i{
+  font-size: 50px;
+  color:white;
+  margin: auto;
+  margin-top: 16px;
+}
+
+.my_animal .add {
+  width: 160px;
+  height: 100px;
+  margin-left: 85%;
+  margin-top: -140px;
+  display: none;
+}
+.my_animal .add i{
+  font-size: 50px;
+  color: #707070 ;
+}
+.my_animal .add span{
+  color: #707070 ;
+  font: normal normal bold 35px/54px Arial Rounded MT;
+  padding: 0px 0px 10px 10px;
+}
+
+
+  }
+
+
+
+  
+
+
+@media(min-width:1200px) and (max-width:1629px){
+  
+.header{
+  background-image:linear-gradient(270deg, #28A745 0%, #17A2B8 100%);
+  width: 100%; height: 96px; display: flex;
+}
+#search{
+  margin-top:15px; 
+  margin-left: 400px;
+} 
+
+#search input{
+ border: 1px solid #707070;
+ border-radius: 33px;
+ width: 550px;
+ height: 66px;
+}
+.icon{
+ position: absolute;
+ top: 35px; margin-left: 25px;
+}
+/* linkat*/
+.main1{
+  height: 15%;
+  display: flex;
+  margin-top: 13px; margin-left: 55px; 
+}
+.main1 img{
+  width: 61px; height: 48px; margin: 13px 0px 0px 25px;
+}
+.main1 p{
+ font-size: 25px; margin-top: 18px; font-weight: bolder; color:#28A745; margin-left: 5px; 
+                                              
+}
+.main1 span{
+  color: #17A2B8;
+}
+.main{
+  display: flex; justify-content: space-between;
+}
+
+.main2 ul{
+  list-style: none;
+  display: flex;  margin-top: 19px; 
+}
+.main2 ul li{
+  margin: 16px 5px 12px 10px ;
+  font-size: 20px;  font-weight: bolder;
+}
+.main2 ul li a:hover{
+  color: #7dc89b;
+  border-bottom: 2px solid #7dc89b; transition: 0.5s;
+}
+.main2 ul li a{ 
+  text-decoration: none; color: black; opacity: 0.7;  margin-left: 20px;
+}
+
+/*  res midddeeellllllleeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee */
+
+.middle {
+  width: 100%;
+  height: 1850px;
+  background-color: #EEEEEE;
+}
+
+.middle .profile_photo {
+  width: 100%;
+  height: 526px;
+  background-image: url("../images/sean-oulashin-KMn4VEeEPR8-unsplash.jpg");
+  background-size: 100% 526px;
+  padding-top: 1px;
+}
+
+.middle .part2 {
+  width: 100%;
+  height: 260px;
+  position: absolute;
+  top: 450px;
+  background-image: linear-gradient(#70707024, #000000A6);
+}
+
+.middle .profile_photo .data {
+  width: 40%;
+  height: 450px;
+  margin: -450px 0% 0px 32%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 35%;
+
+}
+
+.middle .profile_photo .photo {
+  width: 380px;
+  height: 380px;
+  background:url("../images/ben-den-engelsen-YUu9UAcOKZ4-unsplash.jpg");
+  background-size: 450px 450px;
+  border-radius: 50%;
+  margin-top: 61px;
+  margin-left: 30px;
+  
+}
+.middle .profile_photo .photo1 {
+  width: 375px;
+  height: 385px;
+  background: #70707061 0% 0% no-repeat padding-box;
+  background-size: 450px 450px;
+  border-radius: 50%;
+  margin-top: -380px;
+  margin-left: 30px;
+  display: none;
+
+}
+.middle .profile_photo .photo1 i {
+  font-size: 120px;
+  margin-left: 160px;
+  margin-top: 130px;
+}
+.middle .profile_photo .photo1 p {
+  text-align: center;
+  font: normal normal bold 50px/58px Arial Rounded MT;
+  margin-top:-10px ;
+}
+
+.middle .profile_photo h1,
+.middle .profile_photo p {
+  font: normal normal bold 70px/81px Arial Rounded MT;
+}
+
+.middle .profile_photo .data h1 {
+
+  font-size: 30px;
+  padding-top: 80px;
+
+}
+
+.middle .profile_photo .data p {
+  font-size: 30px;
+  position: relative;
+  top: -100px;
+  color: #707070;
+}
+
+.middle .profile_photo .icon {
+  background-color: #FFFFFF;
+  width: 85px;
+  height: 85px;
+  border-radius: 10px;
+  border: 3px solid #707070;
+  text-align: center;
+  margin: 237px 0px 0px 87%;
+}
+
+.middle .profile_photo .icon i {
+  width: 30px;
+  height: 40px;
+  font-size: 50px;
+  padding-top: 20px;
+  padding-right: 18px;
+}
+
+.middle form {
+  width: 100%;
+  height: 350px;
+
+}
+
+.middle form div input {
+  width: 500px;
+  height: 70px;
+  border: 1px solid #707070;
+  border-radius: 8px;
+  background: #70707038;
+  font: normal normal bold 45px/52px Arial Rounded MT;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+.middle form div{
+  width: 510px;
+  height: 100;
+ display: inline-block;
+  
+}
+
+.middle form div label {
+  font: normal normal bold 70px/81px Arial Rounded MT;
+  font-size: 40px;
+}
+
+
+.middle form  .d1 {
+  margin-left: 4%;
+  position: absolute;
+  top: 700px;
+  display: none;
+}
+
+.middle form  .d2 {
+margin-left: 4%;
+margin-top: 5%;
+}
+
+.middle form  .d3 {
+margin-left: 50%;
+margin-top: -20%;
+position: relative;
+bottom: 50px;
+}
+.my_animal {
+  width: 95%;
+  height: 880px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  margin: auto;
+  border: 1px solid #707070;
+  border-radius: 26px;
+}
+.my_animal p{
+  text-align: center;
+  font: normal normal bold 68px/78px Arial Rounded MT;
+letter-spacing: 0px;
+color: #000000;
+}
+.my_animal hr {
+  width: 175px;
+  border: 2px solid #28A745;
+}
+.my_animal .pictures div{
+  border: 1px solid #707070;
+border-radius: 26px;
+width: 40%;
+height: 550px;
+margin-top: 50px;
+}
+.my_animal .pictures{
+  display: flex;
+}
+.my_animal .pic1{
+text-align: right;
+margin-left: 40px;
+background: url("../images/marliese-streefland-2l0CWTpcChI-unsplash.jpg") no-repeat;
+background-size: 100% 550px;
+}
+.my_animal .pic2{
+  text-align: right;
+margin-left: 120px;
+background: url("../images/oscar-sutton-yihlaRCCvd4-unsplash.jpg") no-repeat;
+background-size: 100% 550px;
+}
+.my_animal .pic1 .rex , .my_animal .pic2 .mavi{
+  border: none;
+  width: 100%;
+  height: 150px;
+  position: relative;
+  border-radius: 0px 0px 26px 26px;
+  background: transparent linear-gradient(180deg, #7070704D 0%, #00000099 100%) 0% 0% no-repeat padding-box;
+  
+}
+.my_animal .pic2 .mavi{
+  bottom: -64%;
+  
+}
+.my_animal .pic1 .rex{
+  bottom: -64%;
+}
+.my_animal .pic2  .mavi hr,.my_animal .pic1 .rex hr{
+  width: 150px;
+  border: 2px solid #28A745;
+  margin-top:-60px;
+}
+.my_animal .pic2  .mavi p,.my_animal .pic1 .rex p{
+margin-top: 20px;
+}
+.my_animal .pic1 .rex div,.my_animal .pic2 .mavi div{
+  width: 80px;
+  height: 80px;
+  background: #D20000 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  border-radius: 6px;
+  margin-left: 80%;
+  margin-top: -80px;
+  text-align: center;
+  display: none;
+
+}
+.my_animal .pictures .pic1 #i1,.my_animal .pictures .pic2 #i2{
+  font-size: 60px;
+  margin: 40px 40px ;
+  display: none;
+  
+  }
+.my_animal .pic1 .rex div i,.my_animal .pic2 .mavi div i{
+  font-size: 50px;
+  color:white;
+  margin: auto;
+  margin-top: 16px;
+}
+
+.my_animal .add {
+  width: 160px;
+  height: 100px;
+  margin-left: 85%;
+  margin-top: -140px;
+  display: none;
+}
+.my_animal .add i{
+  font-size: 60px;
+  color: #707070 ;
+}
+.my_animal .add span{
+  color: #707070 ;
+  font: normal normal bold 47px/54px Arial Rounded MT;
+  padding: 0px 0px 10px 10px;
+}
+
+
+
+}
+
+
