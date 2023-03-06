@@ -1,15 +1,34 @@
-/* let first = document.getElementById("accept"); */
-let first = document.querySelector(".main5 .accept");
-const second = document.getElementById("notime");
-let third = document.querySelector(".main5");
 
-third.addEventListener("click", () => {
-  
- /* first.textContent = "Ok";
-  second.style.display = "none";
-  first.style.marginTop="35%";*/
-  
- third.firstElementChild.classList.add("accept");
 
-});
+
+ let accept = document.querySelectorAll(".main5 .accept");
+let dav = document.querySelectorAll(".content1");
+let choose = document.querySelectorAll(".choose");
+
+let x=0 ;
+
+for (x ; x < accept.length; x++){
+  let y = x;
+
+  accept[x].addEventListener("click", () => {
+    dav[y].style.display = "none";
+    y++;
+  });
+}
+
+/* choseeeeeeanotherrrrtimeeeeee */
+let z = 0;
+
+for (z; z < choose.length; z++) {
+  let m = z;
+
+  choose[z].addEventListener("click", () => {
+    dav[m].style.display = "none";
+    m++;
+  });
+}
+
+
+
+
 
